@@ -1,0 +1,19 @@
+Package: simpleEnsembleGroup10
+Title: Simple Ensemble Learning Models
+Version: 0.0.0.9000
+Maintainer: Aswitha Bukka <aswitha.bukka@stonybrook.edu>
+Authors@R: 
+    c(
+    person("Aswitha", "Bukka", email = "aswitha.bukka@stonybrook.edu", role = "cre"),
+    person("Badrinath Reddy", "Panyam", email = "badrinathreddy.panyam@stonybrook.edu", role = "aut"),
+    person("Mounika", "Geriki", email = "mounika.geriki@stonybrook.edu", role = "aut"),
+    person("Tejaswi", "Ganji", email = "tejaswi.ganji@stonybrook.edu", role = "aut"))
+Description: This package provides implementations of various ensemble learning models for regression and classification tasks. It includes linear/logistic regression, ridge regression, lasso regression, elastic net regression, random forests. The package also offers options for feature selection, bagging, and model ensembling.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
